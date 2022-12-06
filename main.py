@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def calc_distance(x1, x2):
+def distance(x1, x2):
     return np.sqrt(np.sum(np.square(x2 - x1)))
 
 
